@@ -7,16 +7,16 @@ const Footer = () => {
         <div className="container-fluid">
             <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-                <a className="nav-link active">Email</a>
+                <a className="nav-link active" href="#email">Email</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link active">GitHub</a>
+                <a className="nav-link active" href="#git">GitHub</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link active">LinkedIn</a>
+                <a className="nav-link active" href="#linkedin">LinkedIn</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link active">Resume</a>
+                <a className="nav-link active" href="#resume">Resume</a>
             </li>
             </ul>
         </div>
