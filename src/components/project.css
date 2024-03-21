@@ -1,0 +1,11 @@
+.project-container {
+    display: flex;
+    padding-top: 5rem;
+  }
+
+  .inner-box {
+    padding: 10px;
+    max-width: 80%;
+    text-align: left;
+  }
+  
