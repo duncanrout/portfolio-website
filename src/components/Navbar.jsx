@@ -5,20 +5,20 @@ import { colors } from '../palette';
 const Navbar = () => {
   return (
     <nav style={{ padding: 0 }} className="navbar navbar-expand-lg bg-body-tertiary">
-      <div style={{ backgroundColor: colors.thirdText }} className="container-fluid">
+      <div style={{ backgroundColor: colors.thirdText, color: colors.text }} className="container-fluid">
         <div className="d-flex">
           <a style={{ color: colors.text }} className="navbar-brand" href="/">Duncan Rout</a>
         </div>
         <ul className="navbar-nav ml-auto">
+          {/* TODO: Scroll to about my */}
           <li className="nav-item">
             <a style={{ color: colors.text }} className="nav-link active" href="#about">About</a>
           </li>
-          <li className="nav-item">
-            <a style={{ color: colors.text }} className="nav-link active" href="#skills">Skills</a>
-          </li>
+          {/* TODO: Scroll to projects */}
           <li className="nav-item">
             <a style={{ color: colors.text }} className="nav-link active" href="#projects">Projects</a>
           </li>
+          {/* TODO: Scroll to bottom */}
           <li className="nav-item">
             <a style={{ color: colors.text }} className="nav-link active" href="#contact">Contact</a>
           </li>
