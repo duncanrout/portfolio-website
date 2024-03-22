@@ -1,11 +1,28 @@
-.project-container {
-    display: flex;
-    padding-top: 5rem;
-  }
+.project-box {
+  display: flex;
+  margin-bottom: 2rem;
+  text-align: left;
+  width: 100%;
+}
 
-  .inner-box {
-    padding: 10px;
-    max-width: 80%;
-    text-align: left;
-  }
-  
+.project-inner-box {
+  flex: 1;
+  padding: 1rem; 
+}
+
+.project-image-box {
+  flex: 0 0 auto;
+}
+
+img {
+  height: auto;
+}
+
+h2, p {
+  margin: 0;
+}
+
+.tech-label {
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+}
