@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Pdf from '../assets/RoutResume.pdf';
 import { colors } from '../palette';
 import useIsMobile from '../useIsMobile';
 
 const Navbar = () => {
   const isMobile = useIsMobile();
-  const [isSVGChanged, setIsSVGChanged] = useState(false);
+  // const [isSVGChanged, setIsSVGChanged] = useState(false);
 
-  const toggleSVG = () => {
-    setIsSVGChanged(!isSVGChanged);
-  };
+  // const toggleSVG = () => {
+  //   setIsSVGChanged(!isSVGChanged);
+  // };
 
   return (
     <nav style={{ padding: 0 }} className="navbar navbar-expand-lg bg-body-tertiary">
