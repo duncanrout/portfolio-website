@@ -3,12 +3,14 @@
     height: 100vh;
   }
   
-  .text-box,
-  .image-box {
-    flex: 1;
+  .who-text-box {
+    flex: 3;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .who-text-box-outer {
+    flex: 1;
   }
   
   .inner-box {

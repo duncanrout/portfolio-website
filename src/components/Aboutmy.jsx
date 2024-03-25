@@ -13,7 +13,7 @@ const Aboutmy = () => {
     <div class="container-fluid" id="about-section" style={{ backgroundColor: colors.thirdText, color: colors.text, height: 'auto', paddingBottom: '3rem' }}>
       {isMobile ? (
       <>
-        <h1 style={{ paddingTop: '1rem', paddingBottom: '1rem' }}>About me</h1>
+        <h1 style={{ paddingTop: '1rem', paddingBottom: '1rem' }}>About my</h1>
         <h2>Past</h2>
         <div className="about-text-box">
           <p>{past}</p>
@@ -32,19 +32,19 @@ const Aboutmy = () => {
         <div className="aboutmy">
           <h1 style={{ fontSize: fonts.h1Big, paddingBottom: '2rem' }}>About my</h1>
           <div className='about-ppf-row'>
-            <div className="about-text-box" style={{ paddingRight: '5rem', paddingLeft: '5rem'}}>
+            <div className="about-text-box" >
               <div className="about-inner-box">
                 <h2 style={{ fontSize: fonts.h2Big }}>Past</h2>
                 <p style={{ fontSize: fonts.pBig }}>{past}</p>
               </div>
             </div>
-            <div className="about-text-box" style={{ paddingRight: '5rem', paddingLeft: '5rem'}}>
+            <div className="about-text-box" >
               <div className="about-inner-box">
                 <h2 style={{ fontSize: fonts.h2Big, paddingTop: '2rem' }}>Present</h2>
                 <p style={{ fontSize: fonts.pBig }}>{present}</p>
               </div>
             </div>
-            <div className="about-text-box" style={{ paddingRight: '5rem', paddingLeft: '5rem'}}>
+            <div className="about-text-box" >
               <div className="about-inner-box">
                 <h2 style={{ fontSize: fonts.h2Big }}>Future</h2>
                 <p style={{ fontSize: fonts.pBig }}>{future}</p>
