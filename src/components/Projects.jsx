@@ -21,7 +21,7 @@ const Projects = () => {
         <Project title="Rubicon Carbon" description={rubiconDescription} img="https://rubiconcarbon.com/wp-content/uploads/2023/08/RubiconCarbon_Logo_ANIMATION_once.webp" tech="React.js, Material UI, AWS" />
         <Project title="Alight Insurance - CBA" description={alightDescription} img={alightPng} tech="Spring boot, Java, Maven, Selenium" />
         <Project title="Sales-i" description={hubsBotDescription} img={salesWebp} tech="Hubspot, Selenium" />
-        <Project title="3SS (In the works!)" description={pokerTracker} img="https://lirp.cdn-website.com/c8a2cb6d/dms3rep/multi/opt/Ginger-Sundae_Detailed_logo-155w.png" tech="React.js, Bootstrap, CloudFlare" />
+        <Project title="3SS" description={pokerTracker} img="https://lirp.cdn-website.com/c8a2cb6d/dms3rep/multi/opt/Ginger-Sundae_Detailed_logo-155w.png" tech="React.js, Bootstrap, CloudFlare" />
       </div>
     </div>
   );
