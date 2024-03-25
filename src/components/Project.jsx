@@ -3,11 +3,13 @@ import './project.css';
 import { colors } from '../palette';
 import useIsMobile from '../useIsMobile';
 import { fonts } from '../fonts';
+import FadeInText from './FadeInText';
 
 const Project = ({ title, img, description, tech, link }) => {
   const isMobile = useIsMobile();
   return (
     <div className="project-box">
+      <FadeInText>
       {/* Wierd workaround but alas */}
       {isMobile ? (
         <div className="project-inner-box">
@@ -30,7 +32,7 @@ const Project = ({ title, img, description, tech, link }) => {
           </div>
         </>
       )}
-
+</FadeInText>
     </div>
   );
 };
