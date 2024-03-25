@@ -5,6 +5,7 @@ import Project from './Project';
 import useIsMobile from '../useIsMobile';
 import alightPng from '../assets/alight.png';
 import salesWebp from '../assets/sales-i.webp'
+import FadeInText from './FadeInText';
 
 const Projects = () => {
   const isMobile = useIsMobile();
@@ -16,7 +17,9 @@ const Projects = () => {
 
   return (
     <div id="projects-section" style={{ backgroundColor: colors.background, color: colors.text, height: 'auto' }}>
-      <h1 style={{ paddingTop: paddingTop, paddingBottom: '3rem'}}>Projects</h1>
+      <FadeInText>
+        <h1 style={{ paddingTop: paddingTop, paddingBottom: '3rem'}}>Projects</h1>
+      </FadeInText>
       <div className="projects">
         <Project title="Rubicon Carbon" description={rubiconDescription} img="https://rubiconcarbon.com/wp-content/uploads/2023/08/RubiconCarbon_Logo_ANIMATION_once.webp" tech="React.js, Material UI, AWS" />
         <Project title="Alight Insurance - CBA" description={alightDescription} img={alightPng} tech="Spring boot, Java, Maven, Selenium" />
