@@ -17,7 +17,7 @@ const Whoami = () => {
               <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10"/>
               </svg> Software Engineer
             </h2>
-            <p style={{ color: colors.text, fontSize: fonts.pBig }}>I’m a passionate junior Full-Stack Developer based in Chicago, currently looking for work. Developing projects excites me, and I am committed to creating the best product possible. I have 2 years of professional experience and am excited to see what's next!</p>
+            <p style={{ color: colors.text, fontSize: fonts.pBig }}>I’m a passionate junior Full-Stack Developer based in Chicago, currently looking for work. Developing projects excites me, and I am committed to creating the best product possible. I have two years of professional experience and am excited to see what's next!</p>
           </div>
         </div>
       ) : (      

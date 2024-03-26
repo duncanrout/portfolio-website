@@ -11,14 +11,14 @@ const FadeInText = ({ children }) => {
     const options = {
       root: null,
       rootMargin: '0px',
-      threshold: 0.5 // Adjust this threshold as needed
+      threshold: 0.5
     };
 
     const observer = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.unobserve(entry.target); // Stop observing once the element is visible
+          observer.unobserve(entry.target);
         }
       });
     }, options);
