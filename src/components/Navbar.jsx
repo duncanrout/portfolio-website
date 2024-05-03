@@ -20,11 +20,11 @@ const Navbar = () => {
               <a style={{ color: colors.text }} className="navbar-brand" href="/">DR</a>
             </div>
             <ul className="navbar-nav ml-auto" style={{ flexDirection: 'row'}}>
-              <li className="nav-item" style={{ paddingRight: '.5rem' }}>
+              {/* <li className="nav-item" style={{ paddingRight: '.5rem' }}>
                 <a style={{ color: colors.text }} className="nav-link active" href="#about-section">About</a>
-              </li>
+              </li> */}
               <li className="nav-item" style={{ paddingRight: '.5rem' }}>
-                <a style={{ color: colors.text }} className="nav-link active" href="#projects-section">Projects</a>
+                <a style={{ color: colors.text }} className="nav-link active" href="#projects-section">Experience</a>
               </li>
               <li className="nav-item" style={{ paddingRight: '.5rem' }}>
                 <a style={{ color: colors.text }} className="nav-link active" href="#contact-section">Contact</a>

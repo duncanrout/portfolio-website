@@ -3,7 +3,7 @@ import './projects.css';
 import { colors } from '../palette';
 import Project from './Project';
 import useIsMobile from '../useIsMobile';
-import alightPng from '../assets/alight.png';
+import alightPng from '../assets/alight-insurance-logo.png';
 import salesWebp from '../assets/sales-i.webp'
 import FadeInText from './FadeInText';
 
@@ -18,12 +18,12 @@ const Projects = () => {
   return (
     <div id="projects-section" style={{ backgroundColor: colors.background, color: colors.text, height: 'auto' }}>
       <FadeInText>
-        <h1 style={{ paddingTop: paddingTop, paddingBottom: '3rem'}}>Projects</h1>
+        <h1 className="custom-font" style={{ paddingTop: paddingTop, paddingBottom: '3rem'}}>sales-i</h1>
       </FadeInText>
       <div className="projects">
         <Project title="Rubicon Carbon" description={rubiconDescription} img="https://rubiconcarbon.com/wp-content/uploads/2023/08/RubiconCarbon_Logo_ANIMATION_once.webp" tech="React.js, Material UI, AWS" />
         <Project title="Alight Insurance - CBA" description={alightDescription} img={alightPng} tech="Spring boot, Java, Maven, Selenium" />
-        <Project title="Sales-i" description={hubsBotDescription} img={salesWebp} tech="Hubspot, Selenium" />
+        <Project title="Sales-i" description={hubsBotDescription} imgtext={salesWebp} tech="Hubspot, Selenium" />
         <Project title="3SS" description={pokerTracker} img="https://lirp.cdn-website.com/c8a2cb6d/dms3rep/multi/opt/Ginger-Sundae_Detailed_logo-155w.png" tech="React.js, Bootstrap, CloudFlare" />
       </div>
     </div>

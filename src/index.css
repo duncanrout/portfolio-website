@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+ .waves-1 {
+  background-image: url('./assets/waves-1.svg')
+ }
+
+ .waves-2 {
+  background-image: url('./assets/waves-2.svg')
+ }
+
+ .waves-bottom-1 {
+  background-image: url('./assets/waves-bottom-1.svg')
+ }
+
+ .flip {
+  transform: rotate(180deg);
+ }

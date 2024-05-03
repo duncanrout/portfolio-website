@@ -3,23 +3,26 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Whoami from './components/Whoami';
-import Aboutmy from './components/Aboutmy';
-import Projects from './components/Projects';
+import Experiences from './components/Experience';
 import Contact from './components/Contact';
 import { colors } from './palette';
 import FadeInText from './components/FadeInText';
+import SectionFirst from './components/SectionFirst';
+import SectionSecond from './components/SectionSecond';
 
 function App() {
   return (
-    <div className="App" style={{ backgroundColor: colors.forthText }}>
+    <div className="App" style={{ backgroundColor: colors.white }}>
       <Navbar />
       <FadeInText>
         <Whoami />
       </FadeInText>
-      <FadeInText>
+      <SectionFirst></SectionFirst>
+      {/* <FadeInText>
         <Aboutmy />
-      </FadeInText>
-      <Projects />
+      </FadeInText> */}
+      <Experiences />
+      <SectionSecond></SectionSecond>
       <FadeInText>
         <Contact />
       </FadeInText>

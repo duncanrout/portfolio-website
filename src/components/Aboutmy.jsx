@@ -10,7 +10,7 @@ const Aboutmy = () => {
   const present = 'Now, I am currently working on myself through personal projects, study, and wellness. I am based in Chicago and am currently looking for roles in front-end development, quality assurance, and data.';
   const future = 'Looking ahead, I’m excited about the future of programming and the endless opportunities it presents. I’m confident that my passion for the field, coupled with my skills and curiosity, will enable me to make an impact in the industry in the years to come.';
   return (
-    <div class="container-fluid" id="about-section" style={{ backgroundColor: colors.thirdText, color: colors.text, height: 'auto', paddingBottom: '3rem' }}>
+    <div class="container-fluid" id="about-section" style={{ backgroundColor: colors.backgroundAbout, color: colors.text, height: 'auto', paddingBottom: '3rem' }}>
       {isMobile ? (
       <>
         <h1 style={{ paddingTop: '1rem', paddingBottom: '1rem' }}>About my</h1>

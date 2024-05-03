@@ -1,0 +1,25 @@
+.custom-font {
+    font-family: 'CustomFont', sans-serif; /* Apply custom font */
+  }
+  
+  .fade-in-text {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out; /* Slow down opacity transition */
+  }
+  
+  .visible {
+    opacity: 1;
+  }
+  
+  .fade-in-char {
+    display: inline-block;
+    opacity: 0;
+    transform: translateX(-10px); /* Initial position off-screen to the left */
+    transition: opacity 2.0s ease-in-out, transform 2.0s ease-in-out; /* Slow down the transitions */
+  }
+  
+  .fade-in-char.visible {
+    opacity: 1;
+    transform: translateX(0); /* Move letter to its final position (from left to right) */
+  }
+  
