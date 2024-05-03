@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useRef, useEffect, useState } from 'react';
 import './FadeInImageText.css';
 import { colors } from '../palette';
@@ -32,10 +31,10 @@ const FadeInImageText = ({ imagetext, fontSize, paddingLeft, paddingRight, imgLi
         observer.unobserve(fadeInRef.current);
       }
     };
-  }, []);
+  }, [fadeInRef]); // Include fadeInRef as a dependency
 
   return (
-    <a href={imgLink} style={{ color: colors.text}}>
+    <a href={imgLink} style={{ color: colors.text }}>
       <h1
         ref={fadeInRef}
         className={`custom-font fade-in-text ${isVisible ? 'visible' : ''}`}
