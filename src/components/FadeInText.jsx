@@ -1,8 +1,6 @@
-// Import necessary dependencies
 import React, { useRef, useEffect, useState } from 'react';
-import './FadeInText.css'; // Create a new CSS file for styling
+import './FadeInText.css';
 
-// Define a functional component for fade-in text
 const FadeInText = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
   const fadeInRef = useRef(null);

@@ -1,5 +1,3 @@
-// palette.js
-
 export const colors = {
     background: '#353849',
     text: '#FFFFFF',
@@ -10,6 +8,5 @@ export const colors = {
     waves2b: '#376389',
     backgroundAbout: '#376389',
     white: '#FFFFFF',
-    // Add more colors as needed
   };
   

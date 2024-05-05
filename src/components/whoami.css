@@ -1,9 +1,6 @@
 .whoami {
     display: flex;
     height: 100vh;
-    /* background-image: url('../assets/blurry-gradient-haikei.svg');
-    background-repeat: no-repeat;
-    background-size: cover; */
   }
   
   .who-text-box {

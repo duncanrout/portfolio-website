@@ -23,7 +23,7 @@ const Experiences = () => {
         <h2 style={{ paddingTop: paddingTop, paddingBottom: '3rem', fontSize: fonts.p, paddingLeft: paddindingX, paddingRight: paddindingX }}>I graduated from Loyola University Chicago in 2022 then immediately started working. I was employed by SPR consulting and worked with clients: Mckinsey, and Alight insurance. I also interned sales-i, a salesforce competitor</h2>
       </FadeInText>
       <div className="expiriences">
-        <Project title="Rubicon Carbon" description={rubiconDescription} img="https://rubiconcarbon.com/wp-content/uploads/2023/08/RubiconCarbon_Logo_ANIMATION_once.webp" tech="React.js, Material UI, AWS" imgLink="https://rubiconcarbon.com/" />
+        <Project title="Rubicon Carbon" description={rubiconDescription} img="https://rubiconcarbon.com/wp-content/uploads/2023/08/RubiconCarbon_Logo_ANIMATION_once.webp" tech="React, TypeScript, Material UI, AWS" imgLink="https://rubiconcarbon.com/" />
         <Project title="Alight Insurance - CBA" description={alightDescription} img={alightPng} tech="Spring boot, Java, Maven, Selenium" imgLink="https://www.alight.com/" />
         <Project title="Sales-i" description={hubsBotDescription} imagetext={'sales-i'} tech="Hubspot, Selenium" imgLink="https://www.sales-i.com/" />
         {/* <Project title="3SS" description={pokerTracker} img="https://lirp.cdn-website.com/c8a2cb6d/dms3rep/multi/opt/Ginger-Sundae_Detailed_logo-155w.png" tech="React.js, Bootstrap, CloudFlare" /> */}

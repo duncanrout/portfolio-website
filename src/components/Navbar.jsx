@@ -5,11 +5,6 @@ import useIsMobile from '../useIsMobile';
 
 const Navbar = () => {
   const isMobile = useIsMobile();
-  // const [isSVGChanged, setIsSVGChanged] = useState(false);
-
-  // const toggleSVG = () => {
-  //   setIsSVGChanged(!isSVGChanged);
-  // };
 
   return (
     <nav style={{ padding: 0 }} className="navbar navbar-expand-lg bg-body-tertiary">

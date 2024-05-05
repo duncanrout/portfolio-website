@@ -10,7 +10,7 @@ const FadeInImageText = ({ imagetext, fontSize, paddingLeft, paddingRight, imgLi
     const options = {
       root: null,
       rootMargin: '0px',
-      threshold: 0.5 // Trigger animation when 50% of element is in view
+      threshold: 0.5
     };
 
     const observer = new IntersectionObserver((entries, observer) => {
@@ -28,10 +28,11 @@ const FadeInImageText = ({ imagetext, fontSize, paddingLeft, paddingRight, imgLi
 
     return () => {
       if (fadeInRef.current) {
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         observer.unobserve(fadeInRef.current);
       }
     };
-  }, [fadeInRef]); // Include fadeInRef as a dependency
+  }, [fadeInRef]);
 
   return (
     <a href={imgLink} style={{ color: colors.text }}>

@@ -4,13 +4,12 @@
     align-items: flex-start;
   }
 
+  /* Sales-i custom font */
 @font-face {
-  font-family: 'CustomFont'; /* Name to reference the font */
-  src: url('../assets/Urbanist-Medium.ttf') format('truetype'); /* Path to your font file */
-  /* You can add additional font properties here if needed */
+  font-family: 'CustomFont';
+  src: url('../assets/Urbanist-Medium.ttf') format('truetype');
 }
 
 .custom-font {
-  font-family: 'CustomFont', sans-serif; /* Apply the custom font */
-  /* Additional styling for your <h1> tag */
+  font-family: 'CustomFont', sans-serif;
 }
